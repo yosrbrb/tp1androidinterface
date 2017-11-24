@@ -1,0 +1,96 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/test"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Angleterre"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="81dp"
+        android:layout_height="22dp"
+        android:text="Capitale:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:text="Londre"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="23dp"
+        android:text="Langue:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:text="Anglais"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="261dp"
+        android:layout_height="92dp"
+        android:text="L'Angleterre (en anglais England) est une nation contitutive du Royaume-Unit elle est bordée par l'Ecosse au nord et le pays de Galles  à l'Ouest "
+        android:textColor="#90EE90"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00BFFF"
+        android:text="Annuler"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF4500"
+        android:text="Choisir"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
